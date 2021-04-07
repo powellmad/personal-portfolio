@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Madison Powell', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my personal portfolio site.', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -17,49 +17,64 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'madison.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://www.canva.com/design/DADQGswwzyk/7Do91LFJFElesCuQAoVcOg/view?utm_content=DADQGswwzyk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'capstone.png',
+    title: 'The Light Side of the Force',
+    info:
+      'The Light Side of the Force is my Front-End Capstone. It is a REACT app which offers self-help content, presented through the lens of Star Wars.    ',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/powellmad/light-side', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Sprinkles of Joy',
+    info:
+      'Sprinkles of Joy is a NSS group project in which the javascript app was already built out. The existing code was broken and included many errors when we received it. My teammate and I worked together to debug the code, then worked on new features to meet MVP.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/powellmad/sprinkles-of-joy-group-project', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'nutshell1.png',
+    title: 'Nutshell',
+    info:
+      'Nutshell is a NSS group project in which I built a REACT social media app, alongside my four teammates.',
+    info2:
+      "In this app, I implemented the friends list, which only shows friends for the logged in user and messages, which automatically posts a timestamp and the author's name with the message, then sorts the messages by timestamp.",
+    url: '',
+    repo: 'https://github.com/powellmad/nutshell-group-project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Sprinkles of Joy',
+    info:
+      'Sprinkles of Joy is a NSS group project in which the javascript app was already built out. The existing code was broken and included many errors when we received it. My teammate and I worked together to debug the code, then worked on new features to meet MVP.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/powellmad/sprinkles-of-joy-group-project', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Email Me',
+  email: 'madsnpowell@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,22 +82,17 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/madisonjpowell/',
     },
     {
       id: nanoid(),
       name: 'github',
+      url: 'https://github.com/powellmad',
+    },
+    {
+      id: nanoid(),
+      name: 'codepen',
       url: '',
     },
   ],
@@ -90,5 +100,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

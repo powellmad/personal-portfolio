@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am currently at Nashville Software School full-time, enrolled in the Full-Stack Web Development Bootcamp. I plan to pursuing software development upon graduation, and I am also interested in UX/UI design elements.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "In August 2020, I graduated from Middle Tennessee State University, where I received a B.S. in Psychology. During my undergraduate studies, I participated in psychology research as a research assistant and performed with MTSU's pre-professional dance company. I graduated Cum Laude with a 3.65 GPA and was a regular name on the dean's list."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'Throughout my undergraduate studies, I worked full-time as a barista and a server at various cafés and restaurants. I also spent time working in offices as a front desk administrator performing receptionist duties. Working full-time while in school full time was challenging but well worth it.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
