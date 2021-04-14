@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'madison.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I am a full-stack software developer with an interest in UI/UX design. I am currently a full-time student at Nashville Software School, enrolled in the Full-Stack Software Development Bootcamp. I have a background in psychology research and work experience in customer service. I am creative, organized, and passionate about developing code that works for all users.',
+  paragraphTwo:
+    "In August 2020, I graduated from Middle Tennessee State University, where I received a B.S. in Psychology. During my undergraduate studies, I participated in psychology research as a research assistant and performed with MTSU's pre-professional dance company. I graduated Cum Laude with a 3.65 GPA and was a regular name on the Dean's List. ",
+  paragraphThree:
+    'Throughout my undergraduate studies, I worked as a barista and a server at various cafés and restaurants. I also spent time working in offices as a front desk administrator performing receptionist duties. Working full-time hours while taking a full course load was challenging, but it was well worth it.',
   resume:
     'https://www.canva.com/design/DADQGswwzyk/7Do91LFJFElesCuQAoVcOg/view?utm_content=DADQGswwzyk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink', // if no resume, the button will not show up
 };
@@ -61,9 +64,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Sprinkles of Joy',
-    info:
-      'Sprinkles of Joy is a NSS group project in which the javascript app was already built out. The existing code was broken and included many errors when we received it. My teammate and I worked together to debug the code, then worked on new features to meet MVP.',
+    title: 'Project',
+    info: '',
     info2: '',
     url: '',
     repo: 'https://github.com/powellmad/sprinkles-of-joy-group-project', // if no repo, the button will not show up
@@ -72,7 +74,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'I look forward to hearing from you!',
   btn: 'Email Me',
   email: 'madsnpowell@gmail.com',
 };
@@ -93,7 +95,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/madisonpowell',
     },
   ],
 };
