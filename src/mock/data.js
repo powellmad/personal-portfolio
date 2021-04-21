@@ -10,9 +10,9 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Madison Powell',
+  subtitle: 'Full-Stack Software Developer.',
+  cta: 'Tell Me More',
 };
 
 // ABOUT DATA
@@ -63,19 +63,20 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Project',
-    info: '',
+    img: 'daily-journal.png',
+    title: 'Daily Journal',
+    info:
+      'Daily Journal is an HTML app that uses a local api to save journal entries and show previous entries on the DOM. In this app, I focused on manually coding CSS to achieve a clean user experience.',
     info2: '',
     url: '',
-    repo: 'https://github.com/powellmad/sprinkles-of-joy-group-project', // if no repo, the button will not show up
+    repo: 'https://github.com/powellmad/daily-journal', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'I look forward to hearing from you!',
-  btn: 'Email Me',
+  cta: '',
+  btn: 'Contact Me',
   email: 'madsnpowell@gmail.com',
 };
 
