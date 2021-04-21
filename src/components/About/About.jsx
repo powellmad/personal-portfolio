@@ -6,8 +6,9 @@ import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
 const About = () => {
-  const { about } = useContext(PortfolioContext);
+  const { about, contact } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { btn, email } = contact;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -49,6 +50,16 @@ const About = () => {
                       href={resume}
                     >
                       Resume
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={
+                        email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'
+                      }
+                    >
+                      {btn || "Let's Talk"}
                     </a>
                   </span>
                 )}
