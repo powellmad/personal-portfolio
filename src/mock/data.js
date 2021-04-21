@@ -42,7 +42,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'sprinkles-of-joy.png',
     title: 'Sprinkles of Joy',
     info:
       'Sprinkles of Joy is a NSS group project in which the javascript app was already built out. The existing code was broken and included many errors when we received it. My teammate and I worked together to debug the code, then worked on new features to meet MVP.',
