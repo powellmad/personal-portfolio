@@ -80,6 +80,36 @@ export const contactData = {
   email: 'madsnpowell@gmail.com',
 };
 
+// TECH STACK DATA
+export const techData = {
+  tech: [
+    {
+      image: 'html-css-js.png',
+    },
+    {
+      image: 'jsx.png',
+    },
+    {
+      image: 'json.jpg',
+    },
+    {
+      image: 'react-logo.png',
+    },
+    {
+      image: 'react-router.png',
+    },
+    {
+      image: 'python.png',
+    },
+    {
+      image: 'sql.jpg',
+    },
+    {
+      image: 'django.png',
+    },
+  ],
+};
+
 // FOOTER DATA
 export const footerData = {
   networks: [
