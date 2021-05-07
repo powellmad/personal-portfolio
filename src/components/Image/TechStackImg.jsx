@@ -13,7 +13,7 @@ const TechStackImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fixed(width: 150) {
+                fixed(height: 125) {
                   ...GatsbyImageSharpFixed
                 }
               }

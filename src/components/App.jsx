@@ -14,7 +14,7 @@ function App() {
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
-  const [tech, setTech] = useState({});
+  const [tech, setTech] = useState([]);
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
@@ -22,7 +22,7 @@ function App() {
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
     setContact({ ...contactData });
-    setTech({ ...techData });
+    setTech([...techData]);
     setFooter({ ...footerData });
   }, []);
 

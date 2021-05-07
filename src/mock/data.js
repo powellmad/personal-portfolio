@@ -80,18 +80,59 @@ export const contactData = {
   email: 'madsnpowell@gmail.com',
 };
 
-export const techData = {
-  logos: [
-    {
-      id: nanoid(),
-      img: 'jsx.png',
-    },
-    {
-      id: nanoid(),
-      img: 'django.png',
-    },
-  ],
-};
+// TECH DATA
+export const techData = [
+  {
+    id: nanoid(),
+    title: 'HTML',
+    img: 'html.png',
+  },
+  {
+    id: nanoid(),
+    title: 'CSS',
+    img: 'css.png',
+  },
+  {
+    id: nanoid(),
+    title: 'JS',
+    img: 'js.png',
+  },
+  {
+    id: nanoid(),
+    title: 'JSX',
+    img: 'jsx.png',
+  },
+  {
+    id: nanoid(),
+    title: 'JSON',
+    img: 'json.png',
+  },
+  {
+    id: nanoid(),
+    title: 'React',
+    img: 'react.png',
+  },
+  {
+    id: nanoid(),
+    title: 'React Router',
+    img: 'react-router.png',
+  },
+  {
+    id: nanoid(),
+    title: 'Python',
+    img: 'python.png',
+  },
+  {
+    id: nanoid(),
+    title: 'SQLite',
+    img: 'sqlite.png',
+  },
+  {
+    id: nanoid(),
+    title: 'Django',
+    img: 'django.png',
+  },
+];
 
 // FOOTER DATA
 export const footerData = {

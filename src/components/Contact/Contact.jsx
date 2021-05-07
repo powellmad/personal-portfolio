@@ -7,7 +7,6 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { tech } = useContext(PortfolioContext);
-  const { img } = tech;
 
   return (
     <section id="contact">
@@ -15,8 +14,12 @@ const Contact = () => {
         <Title title="Tech Stack" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <div className="about-wrapper__image">
-              <TechStackImg alt="tech stack logo" filename={img} />
+            <div className="about-wrapper__images">
+              {tech.map((logo) => {
+                const { title, img } = logo;
+
+                return <TechStackImg alt={title} filename={img} />;
+              })}
             </div>
           </div>
         </Fade>
