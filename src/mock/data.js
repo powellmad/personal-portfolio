@@ -85,12 +85,12 @@ export const techData = [
   {
     id: nanoid(),
     title: 'HTML',
-    img: 'html.png',
+    img: 'html5logo.png',
   },
   {
     id: nanoid(),
     title: 'CSS',
-    img: 'css.png',
+    img: 'css3logo.png',
   },
   {
     id: nanoid(),
@@ -104,33 +104,38 @@ export const techData = [
   },
   {
     id: nanoid(),
-    title: 'JSON',
-    img: 'json.png',
-  },
-  {
-    id: nanoid(),
     title: 'React',
-    img: 'react.png',
+    img: 'reactlogo.png',
   },
   {
     id: nanoid(),
     title: 'React Router',
-    img: 'react-router.png',
+    img: 'reactrouter.png',
+  },
+  {
+    id: nanoid(),
+    title: 'Github',
+    img: 'githublogo.png',
   },
   {
     id: nanoid(),
     title: 'Python',
-    img: 'python.png',
+    img: 'pythonlogo.png',
   },
   {
     id: nanoid(),
     title: 'SQLite',
-    img: 'sqlite.png',
+    img: 'sqllogo.png',
   },
   {
     id: nanoid(),
     title: 'Django',
-    img: 'django.png',
+    img: 'djangologo.png',
+  },
+  {
+    id: nanoid(),
+    title: 'Postman',
+    img: 'postmanlogo.png',
   },
 ];
 
