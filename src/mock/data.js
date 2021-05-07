@@ -80,6 +80,19 @@ export const contactData = {
   email: 'madsnpowell@gmail.com',
 };
 
+export const techData = {
+  logos: [
+    {
+      id: nanoid(),
+      img: 'jsx.png',
+    },
+    {
+      id: nanoid(),
+      img: 'django.png',
+    },
+  ],
+};
+
 // FOOTER DATA
 export const footerData = {
   networks: [

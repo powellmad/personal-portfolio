@@ -7,13 +7,14 @@ import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
 
-import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import { heroData, aboutData, projectsData, contactData, techData, footerData } from '../mock/data';
 
 function App() {
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
+  const [tech, setTech] = useState({});
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
@@ -21,11 +22,12 @@ function App() {
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
     setContact({ ...contactData });
+    setTech({ ...techData });
     setFooter({ ...footerData });
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
+    <PortfolioProvider value={{ hero, about, projects, contact, tech, footer }}>
       <Hero />
       <About />
       <Projects />
