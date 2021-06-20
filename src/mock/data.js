@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'madison.jpg',
   paragraphOne:
-    'I am a full-stack software developer with an interest in UI/UX design. I am currently a full-time student at Nashville Software School, enrolled in the Full-Stack Software Development Bootcamp. I have a background in psychology research and work experience in customer service. I am creative, organized, and passionate about developing code that works for all users.',
+    'I am a full-stack software developer with an interest in user-experience design. I recently graduated from Nashville Software School in Cohort 46, where I received a certification in the Full-Stack Software Development Program.',
   paragraphTwo:
-    "In August 2020, I graduated from Middle Tennessee State University, where I received a B.S. in Psychology. During my undergraduate studies, I participated in psychology research as a research assistant and performed with MTSU's pre-professional dance company. I graduated Cum Laude with a 3.65 GPA and was a regular name on the Dean's List. ",
+    'Growing up, I loved to tinker with computers. When I was 13, I built my first multi page application about large sea mammals using HTML. My father, a computer teacher at a middle school, supported my passion for coding. He was a major influence in my life. In undergrad, I explored my interests in search of the right career fit. I wanted something with high levels of logic, creativity, social skills, and experimenting. After much exploration, I returned to my roots: software development.',
   paragraphThree:
-    'Throughout my undergraduate studies, I worked as a barista and a server at various cafés and restaurants. I also spent time working in offices as a front desk administrator performing receptionist duties. Working full-time hours while taking a full course load was challenging, but it was well worth it.',
+    "Before NSS, I attended Middle Tennessee State University where I earned a B.S. in psychology. During my undergraduate studies, I participated in psychology research as a research assistant and performed with MTSU's pre-professional dance company. I graduated Cum Laude with a 3.65 GPA and was a regular name on the Dean's List. I also worked full-time throughout undergrad in various coffee shops, bars, and offices. Working full-time hours while taking a full course load was challenging, but through it I gained a strong work-ethic, responsibility, and effective time-management skills.",
   resume:
     'https://www.canva.com/design/DADQGswwzyk/7Do91LFJFElesCuQAoVcOg/view?utm_content=DADQGswwzyk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink', // if no resume, the button will not show up
 };
@@ -35,41 +35,30 @@ export const projectsData = [
     img: 'capstone.png',
     title: 'The Light Side of the Force',
     info:
-      'The Light Side of the Force is my Front-End Capstone. It is a REACT app which offers self-help content, presented through the lens of Star Wars.    ',
+      'The Light Side of the Force is my Front-End Capstone. It is a React application which offers self-help content, presented through the lens of Star Wars.    ',
     info2: '',
     url: '',
     repo: 'https://github.com/powellmad/light-side', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'sprinkles-of-joy.png',
-    title: 'Sprinkles of Joy',
+    img: 'rare.png',
+    title: 'Rare',
     info:
-      'Sprinkles of Joy is a NSS group project in which the javascript app was already built out. The existing code was broken and included many errors when we received it. My teammate and I worked together to debug the code, then worked on new features to meet MVP.',
+      'Rare is a content sharing app, designed after Medium developed with React on the client-side and Python/Django for the server. It was implemented in a group of 4 students and built as a full-stack application.',
     info2: '',
     url: '',
-    repo: 'https://github.com/powellmad/sprinkles-of-joy-group-project', // if no repo, the button will not show up
+    repo: 'https://github.com/powellmad/rare-rest-rare-api-determined-dugora', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'nutshell1.png',
-    title: 'Nutshell',
+    img: 'levelup.png',
+    title: 'Level Up',
     info:
-      'Nutshell is a NSS group project in which I built a REACT social media app, alongside my four teammates.',
-    info2:
-      "In this app, I implemented the friends list, which only shows friends for the logged in user and messages, which automatically posts a timestamp and the author's name with the message, then sorts the messages by timestamp.",
-    url: '',
-    repo: 'https://github.com/powellmad/nutshell-group-project', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'daily-journal.png',
-    title: 'Daily Journal',
-    info:
-      'Daily Journal is an HTML app that uses a local api to save journal entries and show previous entries on the DOM. In this app, I focused on manually coding CSS to achieve a clean user experience.',
+      'Level Up is an app where users can set up events to play games with their friends. It was built using React, Python, and Django for a specific hypothetical client and deisgned to fit their specific needs.',
     info2: '',
     url: '',
-    repo: 'https://github.com/powellmad/daily-journal', // if no repo, the button will not show up
+    repo: 'https://github.com/powellmad/level-up-server', // if no repo, the button will not show up
   },
 ];
 
@@ -82,6 +71,41 @@ export const contactData = {
 
 // TECH DATA
 export const techData = [
+  {
+    id: nanoid(),
+    title: 'Python',
+    img: 'pythonlogo.png',
+  },
+  {
+    id: nanoid(),
+    title: 'Django',
+    img: 'djangologo.png',
+  },
+  {
+    id: nanoid(),
+    title: 'SQLite',
+    img: 'sqllogo.png',
+  },
+  {
+    id: nanoid(),
+    title: 'Postman',
+    img: 'postmanlogo.png',
+  },
+  {
+    id: nanoid(),
+    title: 'React',
+    img: 'reactlogo.png',
+  },
+  {
+    id: nanoid(),
+    title: 'React Router',
+    img: 'reactrouter.png',
+  },
+  {
+    id: nanoid(),
+    title: 'JSX',
+    img: 'jsx.png',
+  },
   {
     id: nanoid(),
     title: 'HTML',
@@ -99,43 +123,8 @@ export const techData = [
   },
   {
     id: nanoid(),
-    title: 'JSX',
-    img: 'jsx.png',
-  },
-  {
-    id: nanoid(),
-    title: 'React',
-    img: 'reactlogo.png',
-  },
-  {
-    id: nanoid(),
-    title: 'React Router',
-    img: 'reactrouter.png',
-  },
-  {
-    id: nanoid(),
     title: 'Github',
     img: 'githublogo.png',
-  },
-  {
-    id: nanoid(),
-    title: 'Python',
-    img: 'pythonlogo.png',
-  },
-  {
-    id: nanoid(),
-    title: 'SQLite',
-    img: 'sqllogo.png',
-  },
-  {
-    id: nanoid(),
-    title: 'Django',
-    img: 'djangologo.png',
-  },
-  {
-    id: nanoid(),
-    title: 'Postman',
-    img: 'postmanlogo.png',
   },
 ];
 
