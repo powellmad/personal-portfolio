@@ -103,11 +103,6 @@ export const techData = [
   },
   {
     id: nanoid(),
-    title: 'JSX',
-    img: 'jsx.png',
-  },
-  {
-    id: nanoid(),
     title: 'HTML',
     img: 'html5logo.png',
   },
@@ -125,6 +120,16 @@ export const techData = [
     id: nanoid(),
     title: 'Github',
     img: 'githublogo.png',
+  },
+  {
+    id: nanoid(),
+    title: 'Material UI',
+    img: 'material-ui.png',
+  },
+  {
+    id: nanoid(),
+    title: 'Bootstrap',
+    img: 'Bootstrap_logo.svg.png',
   },
 ];
 
