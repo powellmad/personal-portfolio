@@ -32,6 +32,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'shelf-app.png',
+    title: 'SHELF',
+    info:
+      "I built SHELF for my backend capstone at NSS. It's an e-commerce app designed for small-business owners to sell their surplus inventory. This app is built with python/django and react on the client-side.",
+    info2: '',
+    url: 'https://shelf-sm.netlify.app/',
+    repo: 'https://github.com/powellmad/shelf', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'capstone.png',
     title: 'The Light Side of the Force',
     info:
