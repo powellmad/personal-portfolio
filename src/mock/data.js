@@ -1,10 +1,12 @@
 import { nanoid } from 'nanoid';
+import image from '../images/portfolio-preview.png';
 
 // HEAD DATA
 export const headData = {
   title: 'Madison Powell', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my personal portfolio site.', // e.g: Welcome to my website
+  image: { image },
 };
 
 // HERO DATA
