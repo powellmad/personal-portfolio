@@ -4,6 +4,7 @@
 /* eslint-disable jsx-a11y/html-has-lang */
 import React from 'react';
 import PropTypes from 'prop-types';
+import image from '../public/portfolio-preview.png';
 
 export default function HTML({
   htmlAttributes,
@@ -19,7 +20,7 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta property="og:image" content="https://madison-powell.netlify.app/screen" />
+        <meta property="og:image" content={image} />
         {headComponents}
       </head>
       <body {...bodyAttributes}>
